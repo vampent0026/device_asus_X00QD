@@ -17,6 +17,9 @@ PRODUCT_CHARACTERISTICS := nosdcard
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
+	
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
 
 # Audio
 PRODUCT_PACKAGES += \
