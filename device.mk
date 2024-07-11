@@ -21,6 +21,10 @@ PRODUCT_PACKAGES += \
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
+#Gcam
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt-V3
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
