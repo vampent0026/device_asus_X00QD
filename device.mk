@@ -99,11 +99,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor
-	
-# GCam
-PRODUCT_PACKAGES += \
-    GCamGo \
-    $(LOCAL_PATH)/gcam/Permissions/gcam-permissions.xml
 
 # ATRACE_HAL
 PRODUCT_PACKAGES += \
