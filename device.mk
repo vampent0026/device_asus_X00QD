@@ -102,7 +102,7 @@ PRODUCT_PACKAGES += \
 	
 # GCam
 PRODUCT_PACKAGES += \
-    GCam \
+    GCamGo \
     $(LOCAL_PATH)/gcam/Permissions/gcam-permissions.xml
 
 # ATRACE_HAL
