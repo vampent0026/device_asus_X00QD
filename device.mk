@@ -24,6 +24,10 @@ $(call inherit-product, hardware/dolby/dolby.mk)
 #Gcam
 PRODUCT_PACKAGES += \
     prebuiltGCam
+	
+#RetroMusic
+PRODUCT_PACKAGES += \
+    RetroMusic
 
 # Audio
 PRODUCT_PACKAGES += \
