@@ -23,7 +23,7 @@ $(call inherit-product, hardware/dolby/dolby.mk)
 
 #Gcam
 PRODUCT_PACKAGES += \
-    GCamGOPrebuilt-V3
+    prebuiltGCam
 
 # Audio
 PRODUCT_PACKAGES += \
