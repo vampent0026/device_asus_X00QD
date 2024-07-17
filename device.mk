@@ -29,6 +29,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RetroMusic
 
+#LiquidWallpaper
+PRODUCT_PACKAGES += \
+    LiquidWallpaper
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
