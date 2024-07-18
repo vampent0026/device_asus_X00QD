@@ -32,6 +32,10 @@ PRODUCT_PACKAGES += \
 #LiquidWallpaper
 PRODUCT_PACKAGES += \
     LiquidWallpaper
+	
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # Audio
 PRODUCT_PACKAGES += \
