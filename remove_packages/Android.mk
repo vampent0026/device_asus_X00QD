@@ -5,26 +5,26 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
+	AndroidAutoStub \
+	AndroidAutoStubPrebuilt \
 	arcore \
 	Chrome \
 	Chrome-Stub \
-	SafetyHubPrebuilt \
-	Showcase \
 	FM2 \
-	WellbeingPrebuilt \
-	AndroidAutoStub \
-	AndroidAutoStubPrebuilt \
-	TurboPrebuilt \
-	TagGoogle \
-	talkback \
-	Updater \
-	Symphonica \
 	Gallery2 \
+	GoogleTTS \
 	Music \
 	PersonalSafety \
-	Photos \
+	SafetyHubPrebuilt \
+	Showcase \
+	Symphonica \
+	TagGoogle \
+	talkback \
+	TurboPrebuilt \
 	TurboAdapter \
-	Velvet
+	Updater \
+	Velvet \
+	WellbeingPrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null

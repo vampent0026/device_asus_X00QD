@@ -96,6 +96,12 @@ on init
     write /proc/sys/kernel/sched_lib_name "UnityMain,libunity.so,com.miHoYo.,libfb.so,liblogic.so,libssgamesdkcronet.so,libil2cpp.so,com.activision."
     write /proc/sys/kernel/sched_lib_mask_force 255
 
+on early-boot
+    # Dolby
+    mkdir /data/vendor/dolby 0770 media media
+    mkdir /data/vendor/multimedia 0775 system system
+
+
 on boot
     start vendor.rmt_storage
     start vendor.rfs_access
