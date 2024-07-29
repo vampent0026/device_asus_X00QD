@@ -1,5 +1,0 @@
-prebuilt_etc {
-    name: "apns-conf",
-    src: "prebuilt/common/etc/apns-conf.xml",
-    path: "product/etc/",
-}
