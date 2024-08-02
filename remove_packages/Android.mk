@@ -10,6 +10,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	arcore \
 	Chrome \
 	Chrome-Stub \
+	FilesPrebuilt \
 	FM2 \
 	Gallery2 \
 	GoogleTTS \
