@@ -8,6 +8,13 @@ DEVICE_PATH := device/asus/X00QD
 
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
+# Enable dex preoptimization
+BOARD_DEX_PREOPT := true
+
+# Prevent preserving original dex files
+# This could also be in an Android.mk file for each app
+LOCAL_NO_DEX := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
