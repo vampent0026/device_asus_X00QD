@@ -46,8 +46,6 @@
         <!--AUDIO MOD-->
         <library name="dap" path="libswdap.so"/>
         <!--AUDIO END-->
-        <!--DOLBY SPATIALIZER-->
-        <library name="spatializer" path="libtsrspatializer.so"/>
         <!--DOLBY GAME-->
         <library name="gamedap" path="libswgamedap.so"/>
         <!--DOLBY VQE-->
@@ -106,8 +104,6 @@
         <!--AUDIO MOD: we only need one schema-->
         <effect name="dap" library="dap" uuid="9d4921da-8225-4f29-aefa-39537a04bcaa"/>
         <!--AUDIO END-->
-        <!--DOLBY SPATIALIZER-->
-        <effect name="spatializer" library="spatializer" uuid="93f04452-e4fe-41cc-91fa-e475b6d1d6a0"/>
         <!--DOLBY GAME-->
         <effect name="gamedap" library="gamedap" uuid="3783c334-d3a0-4d13-874f-0032e5fb80e2"/>
         <!--DOLBY VQE-->
